@@ -1,0 +1,160 @@
+* {
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.space {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px;
+}
+
+.headline {
+    height: 50px;
+    background-color: black;
+}
+
+.headline p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9ea1a5;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.content {
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+}
+
+.content p {
+    color: Black;
+}
+
+.content-head {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+.content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-bottom {
+
+}
+
+.addBtn {
+    margin-left: 20px;
+    width: 50px;
+    padding-top:7px;
+    height: 30px;
+    background: #1d52fa;
+    color: #dce4ee;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: solid white 1px;
+    border-radius: 10px;
+}
+
+#task-input {
+
+    float: left;
+    margin-left: 40px;
+    width: 600px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.delete {
+    width: 5%;
+    height: 90%;
+    float: left;
+    margin-top:7px;
+}
+
+.delete button {
+    height: 30px;
+    border: 0;
+    background: white;
+
+}
+
+.delete img{
+    height: 19px;
+    width: 19px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.notdone {
+    text-decoration: none;
+}
+
+.task-name {
+    margin-top: 7px;
+    width: 90%;
+    height: 90%;
+}
+
+.task-name p {
+    height: 90%;
+    width: 90%;
+    padding-top: 2px;
+    padding-left: 4px;
+    color:black;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.check {
+    margin-top: 7px;
+    float: left;
+    width: 5%;
+    height: 100%;
+
+}
+
+.check input {
+    position: relative;
+    margin-top: 6px;
+    margin-left: 7px;
+}
+
+#content-bottom {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+}
+
+.task {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: solid black 1px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 5px;
+}
+
+#content-bottom div{
+    display: block;
+    float: left;
+}
